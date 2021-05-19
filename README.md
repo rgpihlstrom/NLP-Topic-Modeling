@@ -13,9 +13,11 @@ Additionally, I experimented with using Naive Bayes, a supervised algorithm, to 
  
  ## Business Problem
 Grocery sales for plant-based meats are up 47% vs. year ago, and research suggests the acceptance of plant-based burgers by mainstream consumer is starting to become reality. The a large portion of this growth is coming from the Impossible and beyond brands
-![image](https://user-images.githubusercontent.com/68013390/118865425-ea521400-b8ae-11eb-84bf-b2bcfb41c10c.png)
-.
+ <p>
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/PlantBasedSales.png"  height="300"/>
 
+ 
+ 
 <br>
 
 #### The Current Situation: Telco is Losing 27% of Customers, 31% of Revenue to Churn.
