@@ -57,8 +57,7 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 
  <br/>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive.png" height="400" />
-<br/>
-<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative.png" width="700"/>
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative.png" width="800" />
 
 
 <h4>Results Explained (using below illustration):</h4>
