@@ -1,5 +1,5 @@
 **Author**:[Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
-## Overview: Topic Modeling To Drive Innovation!
+## Product Reviews & Topic Modeling To Drive Innovation!
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/Intro.png" height="300"/>
 
 ## Results 60% Coherence, 6 Topics!
