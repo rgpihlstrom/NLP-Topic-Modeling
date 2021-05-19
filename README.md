@@ -12,26 +12,21 @@ Additionally, I experimented with using Naive Bayes, a supervised algorithm, to 
 
  
  ## Business Problem
-Grocery sales for plant-based meats are up 47% vs. year ago, and research suggests the acceptance of plant-based burgers by mainstream consumer is starting to become reality. The a large portion of this growth is coming from the Impossible and beyond brands
+Grocery sales for plant-based meats are up 47% vs. year ago, and research suggests the acceptance of plant-based burgers by mainstream consumer is starting to become reality. A large portion of this growth is coming from the two most dominate brands/products: Impossible and Beyond.
  <p>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/PlantBasedSales.png"  height="300"/>
 
  
- 
 <br>
 
-#### The Current Situation: Telco is Losing 27% of Customers, 31% of Revenue to Churn.
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
-<br>
+#### The Current Situation: The CEO of Sunrise Health Foods is looking to enter the growing category with a new product.  However, given the high rate of failure for new product launches, coupled with the high costs for entry he/she is looking to create a product that is uniquely better than industry competitors.  In order to create a new and uniuque product, unique insights are needed.  He has hired me to review the vast number of product reviews captured for industry leaders from the most popular sites and formulate my findings into a set of product attributes that can then be leverage by the R&D team as it begins its product development efforts.
 
 ### Business Questions Driving Model Development.
- The intended output of this theoretical business case is focused on helping Telco's CEO and Marketing leadership do the following:
--   **1. Identify Features Most Associated with Churn.**
--   **2. Evaluate Telco's Current offerings Ability to Prevent Churn.**
--   **3. Identify Areas for Potential Innovation.**
+ The intended output of this theoretical business case is focused on the following:
+-   **1. Identify The Key Sentiments & Topics Menentioned From Product Review Sites.**
+-   **2. Examples Good & Bad Product Attributes the R&D Team Should Consider During their Development Efforts.**
+-   **3. Attempt to Project Ratings from Rated Reviews on to Unrated reviews.**
 <br>
-Furthermore, the model was developed for the purpose of reuse to identify and potentially prevent future customer churn for Telco.
- <br>
  
 ## Data
 
