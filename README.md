@@ -52,13 +52,13 @@ This project uses the Crisp DM methodology to generate and optimize the models. 
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/EvaluatingTopicModels.png" height="300" />
 
 
-## Model Results - Topic Modeling (, )
+## Model Results - Topic Modeling
 After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>, accuracy <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were acheived using the <b><ins>LDA Multicore in Gensim</ins></b>.  It's important to remember these results were acheived with a focus on interpretability.
 
  <br/>
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ModelResults.png" width="600" height="400" />
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive.png" height="400" />
 <br/>
-
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative.png" height="400" />
 
 
 <h4>Results Explained (using below illustration):</h4>
