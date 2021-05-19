@@ -79,7 +79,7 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 
 <br>
 ## Example Reviews From Scrapped Sources Associated with Key words
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/MostImportantFeatures2.png" />
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/ExampleReviews.png" />
 
 
 
