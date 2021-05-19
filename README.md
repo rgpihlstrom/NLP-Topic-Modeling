@@ -84,18 +84,18 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 <h4>Reviewing Extending Model From Rated Reviews to Non-Rated REviews:</h4>
 <h5>TBD</h5>
 
-### Observations:
-- ABC.
+### Summary of Product Areas for R&D Teams To Consider:
+- Positive Topics/ Attributes: 
+- Negative Topics/Attributes: 
 
 
+## Next Steps - MORE DATA
 
-## Next Steps
+- **MORE DATA - Retailers Should Motivate More On-line Consumer Reviews** - Quantity & Diverity of Thought:  One of the challenges of this project was amassing enough data to obtain the quantity of data required to create robust models.  In order to encourge this type of analysis in the future and accross several categories more reivews would be helpful, also pushing consumer to generate organic thoughts for targeted product attributes, dislikes, etc.
 
-- **MORE DATA - Retailers Should Motivate More On-line Consumer Reviews** - More & Diverity of Thought: In order to encourge this type of analysis in the future and accross several categories more reivews would be helpful, also pushing consumer to generate organic thoughts for targeted product attributes, dislikes, etc.
+- **MORE DATA - Developing More Extendables Models** - More Sources of Data:  Per the above obtaining data is a challenge.  Additionally, obtaining data that is also rated is even more of a challenge.  In order to combat this problem I could develop an algorithm that would take the ratings from reviews that allow the user to enter a ratings (amazon) and using that data to project a rating on to reviews that do not allow the user to enter a rating (twitter,tic-tok, FB).  By creating a more extendable more will allow for the use of more sources of data, and ultimately increases the quantity. 
 
-- **Entending Rated Modles to Classify/ Rate non-rated content** - Given the prevalance of popular social media centered forms such as twitter, tic-tok, FB and other the need to incorpate thes reviews from these sites is obvious.  However without a mechinism for the consumer to quantity their feelings of these sites the manufacturer struggles to use the data from these sites effectively.  By using the XYZ method to develop an internal classifier would be benefical.
-
-- **Monitoring Video Content** - While scraping sites such as twitter I encountered several reviews that were notincorporated into this analysis as most of the reivews on twitter were really just a promotion vehicle to a video on youtube actually showing the review on tape.  Undering and getting this data in a fashion that would allow for analysis would be invaluable
+- **MORE DATA - Leveraging Video Content To Create Reviews** - While scraping sites for this project, such as twitter, I encountered several tweets that contained the words "Beyond Burger Review" or "Impossible Burger Review" that were not really reveiws but instead were really just links to youtube/ other videos.  If there was a technolgogy to summarize videos down to a review would be invaluable.
 
 See the full analysis in the [Jupyter Notebooks](folder) or review our <a href="https://github.com/rgpihlstrom/Project5/blob/main/Presentation.pdf">Presentation</a>.
 
