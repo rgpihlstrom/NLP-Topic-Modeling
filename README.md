@@ -2,9 +2,12 @@
 
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/Intro.png"/>
 
-## Overview: 60% Coherence!
+## Overview: Topic Modeling 60% Coherence!
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/Intro.png"/>
 
-This project uses a Naive Bayes classifier & supervised learning methods to classify approximately 3300 tweets as either positive or negative based on the words present within each tweet.  By leveraging and learning from past pre-coded positive or negative tweets I was able to create a model that correctly classified each tweet with an accuracy score of <b><ins>86%.</ins></b>  The developed algorithm/“model” can be reused to classify future potential tweets that are captured in a similar fashion as employed on our training data set.  
+This project uses LDA Topic Modeling, an unsupervised algorithm, to discover the latent topics mentioned by consumers in approximately 3000 product reviews of the most popular ananalog plant-based meat products.  By scraping data from the most popular retail and social media sites I create two sets of topic models: 1 set of 4 topics for positively rated reviews and another set of 2 for negatively rated reviewes.  The algorithm was able to acheive coherence scores of 50% and 60% respectively.  The following were the most popular topics for each segment of data:
+
+Additionally, I used Naive Bayes, a supervised algorithm, to attribute a numberical rating to reviews that otherwise did not have an accompaning numberical/ stars rating.  By leveraging and learning from past pre-coded positivly (4-5 Stars) or negativly (1-3 stars) rated reviews I attempted to classify twitter reviews into a positve or negative category repectively.  was able to create a model that correctly classified each tweet with an accuracy score of <b><ins>86%.</ins></b>  The developed algorithm/“model” can be reused to classify future potential tweets that are captured in a similar fashion as employed on our training data set.  
 
 ## Project Context
 Below is a timeline of actual events that influenced the dynamics of the business problem outline below.   
