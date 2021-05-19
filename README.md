@@ -4,7 +4,7 @@
 
 ## Results 60% Coherence, 6 Topics!
 
-This project uses LDA Topic Modeling, an unsupervised algorithm, to discover the latent topics mentioned by consumers in approximately 3000 product reviews of the most popular ananalog plant-based meat products.  By scraping data from the most popular retail and social media sites I create two sets of topic models: 1 set of 4 topics for positively rated reviews and another set of 2 topics for negatively rated reviewes.  The algorithm was able to acheive coherence scores of 50% and 60% respectively.  The following were the most dominate topics for each segment of data:
+This project uses LDA Topic Modeling, an unsupervised algorithm, to discover the latent topics mentioned by consumers in approximately 3000 product reviews of the most popular ananalog plant-based meat products.  By scraping data from the most popular retail and social media sites I create two sets of topic models: 1 set of 4 topics for positively rated reviews and another set of 2 topics for negatively rated reviewes.  The algorithm was able to acheive coherence scores of <b><ins>50%</ins></b> and <b><ins>60%</ins></b> respectively.  The following were the most dominate topics for each segment of data:
 <p>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SnapshotTopics1.png"  height="300"/>
 
