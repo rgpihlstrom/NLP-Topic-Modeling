@@ -1,6 +1,6 @@
 **Author**:[Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
 
-<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/Intro.png" width="600" height="600"/>
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/Intro.png" height="300"/>
 
 ## Overview: Topic Modeling 60% Coherence!
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SnapShotOfTopics.png"  height="300"/>
