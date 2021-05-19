@@ -49,11 +49,11 @@ This project uses the Crisp DM methodology to generate and optimize the models. 
 
 -   **3. Techincal Challenges - LDA using Reviews of Few Words:**Finding the number of topics, finding The "right" words for each Topic and finding topics that represented a portion of each doc/ review with a very iterative process.  LDA Topic modeling is a technique that is considered a "soft" classifier and interpeting its results are part-art-part-science.  Experts suggest the higher the coherence the better but the max coherence score acheived during topic modeling does not alway acheive the most interpretable/ translatable topics.  During this project I acheive coherence scores that ranged from .2 - .72.  Ultimately I chose hyperameteres that created models that reached greater than .45 and then selected the number of topics per dataset based on iterpretabilty and my domain knowledge on the subject, as I have over 15 years of experience in the food innovation space.  I also cross referenced my number selected topics per dataset against a Kmeans elbow graph ensure alignment.  Lastly, I used LDA vis to ensure separation of topics.  Below are the results from both the positive and negative datasets
 
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ChurnOverFalseAlarms.png" width="600" height="300" />
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/EvaluatingTopicModels.png" width="600" height="300" />
 
 
-## Model Results (85% Detection)
-After several iterations, the below recall <b><ins>(85%)</ins></b>, accuracy <b><ins>85%</ins></b>, precision <b><ins>47%</ins></b>, and AUC<b><ins>82%</ins></b> scores were achieved for the selected classifier..  These results were acheived using the <b><ins>Random Forest Classifier</ins></b>.  It's important to remember these results were acheived with a focus on recall(detection) over precision (false alarms).
+## Model Results - Topic Modeling (50% Coherence - Positive Reviews, 60% Coherence - Negative Reviews)
+After several iterations, the below topic models were created <b><ins>(85%)</ins></b>, accuracy <b><ins>85%</ins></b>, precision <b><ins>47%</ins></b>, and AUC<b><ins>82%</ins></b> scores were achieved for the selected classifier..  These results were acheived using the <b><ins>Random Forest Classifier</ins></b>.  It's important to remember these results were acheived with a focus on recall(detection) over precision (false alarms).
 <br/>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ModelResults.png" width="600" height="400" />
 <br/>
