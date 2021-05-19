@@ -38,10 +38,8 @@ The CEO of Sunrise Health Foods is looking to enter the growing category with a 
 
 The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3k rows and required the use of selenium and Scrapy to procure along with twint for the reviews obtained from twitter reviews.
   
-  
-  
-<br><br>
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Columns.png" />
+<br>
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData.png" height="300"/>
 
 ## Model Development Methods
 This project uses the Crisp DM methodology to generate and optimize the published model.  Crisp DM requires blending business strategy, availabled data, and modeling techniques best suited to the business drivers.  Model development is and was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with fleeing customers.  Along with the project requirements noted above, the following additional factors were considered during the modeling process:
