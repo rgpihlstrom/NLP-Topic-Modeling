@@ -4,7 +4,7 @@
 
 ## Results 60% Coherence, 6 Topics!
 
-This project uses LDA Topic Modeling, an unsupervised algorithm, to discover the latent topics mentioned by consumers in approximately 3000 product reviews of the most popular ananalog plant-based meat products.  By scraping data from the most popular retail and social media sites I create two sets of topic models: 1 set of 4 topics for positively rated reviews and another set of 2 for negatively rated reviewes.  The algorithm was able to acheive coherence scores of 50% and 60% respectively.  The following were the most dominate topics for each segment of data:
+This project uses LDA Topic Modeling, an unsupervised algorithm, to discover the latent topics mentioned by consumers in approximately 3000 product reviews of the most popular ananalog plant-based meat products.  By scraping data from the most popular retail and social media sites I create two sets of topic models: 1 set of 4 topics for positively rated reviews and another set of 2 topics for negatively rated reviewes.  The algorithm was able to acheive coherence scores of 50% and 60% respectively.  The following were the most dominate topics for each segment of data:
 <p>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SnapshotTopics1.png"  height="300"/>
 
@@ -12,7 +12,9 @@ Additionally, I experimented with using Naive Bayes, a supervised algorithm, to 
 
  
  ## Business Problem
-Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with difficult to differentiate product offerings makes retaining customers, on factors beyond price, very difficult.  Therefore, the historically thin profit margins of the past are only getting thinner, and placing greater than ever importance on customer retention.  In fact, a case study done by the Bain Company on the Telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
+Grocery sales for plant-based meats are up 47% vs. year ago, and research suggests the acceptance of plant-based burgers by mainstream consumer is starting to become reality. The a large portion of this growth is coming from the Impossible and beyond brands
+![image](https://user-images.githubusercontent.com/68013390/118865425-ea521400-b8ae-11eb-84bf-b2bcfb41c10c.png)
+.
 
 <br>
 
