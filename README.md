@@ -52,11 +52,15 @@ This project uses the Crisp DM methodology to generate and optimize the models. 
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/EvaluatingTopicModels.png" height="300" />
 
 
-## Model Results - Topic Modeling (50% Coherence - Positive Reviews, 60% Coherence - Negative Reviews)
-After several iterations, the below topic models were created <b><ins>(85%)</ins></b>, accuracy <b><ins>85%</ins></b>, precision <b><ins>47%</ins></b>, and AUC<b><ins>82%</ins></b> scores were achieved for the selected classifier..  These results were acheived using the <b><ins>Random Forest Classifier</ins></b>.  It's important to remember these results were acheived with a focus on recall(detection) over precision (false alarms).
-<br/>
+## Model Results - Topic Modeling (, )
+After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>, accuracy <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were acheived using the <b><ins>LDA Multicore in Gensim</ins></b>.  It's important to remember these results were acheived with a focus on interpretability.
+
+ <br/>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ModelResults.png" width="600" height="400" />
 <br/>
+
+
+
 <h4>Results Explained (using below illustration):</h4>
 <strong> - 85% Detection</strong> = Model Predicted Churn , Customer Actually Churned <br/>
 <strong> - 34% False Alarms</strong> = Model Predicted Churn , Customer Actually remained Loyal<br/>
