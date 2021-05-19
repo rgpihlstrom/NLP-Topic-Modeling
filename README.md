@@ -60,18 +60,30 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative.png" width="775" />
 
 
-<h4>Results Explained (using below illustration):</h4>
-<strong> - 85% Detection</strong> = Model Predicted Churn , Customer Actually Churned <br/>
-<strong> - 34% False Alarms</strong> = Model Predicted Churn , Customer Actually remained Loyal<br/>
-<strong> - 15% Undetected Churn</strong> = Model Predicted Loyal , Customer Actually Churned<br/>
-<strong> - Red Dashed Line</strong> = This is our <b><ins>THRESHHOLD</ins></b> level (default probability rate) the model uses this % probability to label a customer as churn vs. not churn.<br/><br/>
-<strong>***Key Take Away</strong> = Our model is very good at detecting churn.  As we decrease or increase our <b><ins>THRESHHOLD</ins></b> we can capture more or less churners.  This in turn results in a higher or lower False Alarm rate.  Per my suggestion in next steps below, we need to develop a cost for False Alarms.  This will allow us to create a profit tradeoff equation, enabling us to set the "right" threshold for the business.
+<h4>Topic Model Results Explained:</h4>
+<h3>Topics Derived From Positivly Rated Reviews</h3>
+<strong> - Topic 0</strong> = <b><ins>NEW FAMILY FAVORITE</ins></b> Per the pyvis graph above this was by far the most dominate topic in the positive set of reviews.  In Studing the reveiws most associated with the topic and key words this topic can be called  as the reviews here were raving about the simliarity to real meat, great taste, great substiture for beef<br/>
+<strong> - Topic 1</strong> = <b><ins>WORTH THE SACRIFICE</ins></b> as the reviews most associated with this topic and the dominate words correlated quality texttures, reception of price, filling, and being impressed, despite a few concerns on long/ odd ingredient lists aka (chemicals)<br/>
+<strong> - Topic 2</strong> = <b><ins>RIGHT PROPOSITION</ins></b> as the reviews most associated with this topic and the dominate words correlated with size of the product and number of items contained in the package along with all the benefits associated with animal and eco friendly. <br/>
+<strong> - Topic 3</strong> = <b><ins>GUILT  FREE CONVENIENCE </ins></b> as the reviews most associated with this topic and the dominate words correlated with easy of use, versatility and the health benefits associated with avoid the hormons associated with non-organic beef farms
+
+
+<h3>Topics Derived From Negatively Rated Reviews</h3>
+<strong> - Topic 0</strong> = <b><ins>BUYER BEWARE</ins></b> Per the pyvis graph above this was by far the most dominate topic in the negetive set of reviews.  The reviews here were blasting the horrible smells, resembalance to wet petfood and its very large gap between the textures offered vs. real beef.
+<br/>
+<strong> - Topic 1</strong> = <b><ins>NOT WORTH THE SACRIFICE</ins></b> as the reviews most associated with this topic and the dominate words correlated with long list of ingredients, ingredients that cannot be pronounced (aka chemicals) and the high cost relative to beef.
+<br/>
+
+<br/><br/>
+<strong>***Key Take Away/ Product Attributes to Target</strong> = Well received all around, meeting many needs for consumers desire for: <b><ins>Taste, Texture, Convenience, Price, Eco</ins></b>… willing to “put up” with <b><ins>Smell and Ingredient list</ins></b>… at least for now... however as a R&D staff they should target:  <b><ins>SMELL, APPEARANC, PRICING, INGREDIENTS </ins></b> as opportunities to offer something new and unique to the market.
 
 <br>
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/VisualOfChurnDection.png" width="600" height="375"/>
+## Example Reviews From Scrapped Sources Associated with Key words
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/MostImportantFeatures2.png" />
 
-<br><br>
-## Business Results/ Recommendations (Using 50% Threshold)
+
+
+
 As stated above the goal of the project was three fold.  I have outlined and summarized the results of each area of interest below:
 
 <h3>1. Top Features Associated with Non Churn vs. Churn:</h3>
