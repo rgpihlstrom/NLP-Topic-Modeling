@@ -1,8 +1,8 @@
 **Author**:[Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
 
-<img src="https://github.com/rgpihlstrom/Project4/blob/main/images/Title.png"/>
+<img src="https://github.com/rgpihlstrom/Project5/tree/main/images/Intro.png"/>
 
-## Overview: 86% Accuracy!
+## Overview: 60% Coherence!
 
 This project uses a Naive Bayes classifier & supervised learning methods to classify approximately 3300 tweets as either positive or negative based on the words present within each tweet.  By leveraging and learning from past pre-coded positive or negative tweets I was able to create a model that correctly classified each tweet with an accuracy score of <b><ins>86%.</ins></b>  The developed algorithm/“model” can be reused to classify future potential tweets that are captured in a similar fashion as employed on our training data set.  
 
