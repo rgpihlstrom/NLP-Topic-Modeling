@@ -36,7 +36,10 @@ The CEO of Sunrise Health Foods is looking to enter the growing category with a 
  
 ## Data
 
-The data used for this project was provided by Telco and published and managed by Kaggle and served as a basis for past Kaggle competitions (Telco Customer Churn https://www.kaggle.com/blastchar/telco-customer-churn)  The dataset contains approximately 8k rows and 21 features capturing the purchase, usage, and tenure information on a subset of Telco's customers.  17 of the features are categorical, 3 are continuous, and 1 is ID.  A list of features contained within the data are below.
+The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3k rows and required the use of selenium and Scrapy to procure along with twint for the reviews obtained from twitter reviews.
+  
+  
+  
 <br><br>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Columns.png" />
 
