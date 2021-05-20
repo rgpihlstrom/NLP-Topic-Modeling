@@ -72,7 +72,7 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 <br/>
 <br>
 
-#### Example Reviews From Scrapped Sources Associated with Key words
+#### Example Reviews From Scrapped Sources Associated with Key words:
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/ExampleReviews.png" />
 
 ### Summary of Product Areas for Marketing & R&D Teams To Consider:
