@@ -18,10 +18,10 @@ Grocery sales for plant-based meats are up 47% vs. year ago.  Research suggests 
 
 #### The Current Situation: 
   
-<table >
+<table>
   <tr>
     <td><img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SunriseCEO.png" height="300"/></td>
-    <td width="40%"> The CEO of Sunrise Health Foods is looking to enter the growing category with a new product.  However, given the high rate of failure for new product launches, coupled with the high costs for entry he/she is looking to create a product that is uniquely better than the industry leaders Impossible & Beyond.  To create a new and unique product, new and unique insights are needed.  The CEO has hired me to review the vast number of product reviews captured from various on-line retailers/ sources to mine for insights that could be used by the team to ensure a successful new product launch.  The findings will help the Marketing & R&D teams better understand the consumers needs, wants, and desires along with how current solutions are failing to deliver.</td>
+    <td width="60%"> The CEO of Sunrise Health Foods is looking to enter the growing category with a new product.  However, given the high rate of failure for new product launches, coupled with the high costs for entry he/she is looking to create a product that is uniquely better than the industry leaders Impossible & Beyond.  To create a new and unique product, new and unique insights are needed.  The CEO has hired me to review the vast number of product reviews captured from various on-line retailers/ sources to mine for insights that could be used by the team to ensure a successful new product launch.  The findings will help the Marketing & R&D teams better understand the consumers needs, wants, and desires along with how current solutions are failing to deliver.</td>
   </tr>
 </table>
 
