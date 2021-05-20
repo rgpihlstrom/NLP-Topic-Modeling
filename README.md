@@ -26,19 +26,19 @@ The CEO of Sunrise Health Foods is looking to enter the growing category with a 
 2. Examples of good & bad product attributes associated with incumbents.  These will fuel product development efforts.
 <br>
  
-#### The  Data
+#### The  Data:
 The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3000 reviews.
   
 <br>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData1.png" height="300"/>
-#### Model Development Methods
+#### Model Development Methods:
 This project uses the Crisp DM methodology to generate and optimize used models.  Crisp DM requires the blending of business strategy, available data, and the use of the best modeling techniques dictated by business drivers.  Model development is and was very iterative.  I began by doing secondary research around the basic business drivers of the industry, and gaining a better understanding on the top selling products and brands of plant-based meats (thanks to my friends a IRI :) ).  Along with the project requirements noted above, the following additional factors were considered during the modeling process:
 -   **1. Data Imbalance** Early in the development process it was obvious that I would be dealing with an imbalanced set of data (more information/ rows of data on positive reviews vs. negative reviews).  To offset this problem, I split the data into two sets: positive and negative.  This step ensured the negative topics/ attributes would be surfaced without being clouded by the vast majority of positive reviews. 
 - **2. Selection of Unsupervised Topic Modeling Techniques** Initially I tried several different types of topic models, ranging from Mallets LDA, HDP, Multicore LDA, other.  Ultimately, I decided to use <b><ins>Genism’s Multicore LDA model</ins></b>, as this topic model continued to produce more coherent topics with higher coherence scores during my iterative approach to modeling.
 - **3. Technical Challenges - LDA & Reviews with Few Words:**  Discovering the optimal number of topics, finding The "right" words for each Topic and finding topics that represented a portion of each doc/ review is/was a very iterative process.  LDA Topic modeling is a technique that is considered a "soft" classifier and interpreting results are part-art-part-science.  Experts suggest the higher the coherence score the better, but the max coherence score does not always translate to the most interpretable/ translatable topics.  Instead, when using topic modeling to find hidden topics the user is required to use a blend of domain knowledge, coherence score, coherence overlap, and topic interpretability to select the “right” number of topics with a corpus. During this project I achieved coherence scores that ranged from .2 - .72.  Ultimately, I chose hyper-parameters that created models that reached coherence scores greater than .45 and then selected the number of topics per dataset based on interpretability coupled with my domain knowledge on the subject, as I have over 15 years of experience in the food innovation space.  I also cross referenced my number of selected topics per dataset against a Kmeans elbow graph to ensure alignment.  Lastly, I used pyLDAvis.gensim to ensure separation of topics.  Below are the results from both the positive and negative datasets associated with each topic model.
 
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/EvaluatingTopicModels.png" height="300" />
-#### Model Results - Topic Modeling
+#### Model Results - Topic Modeling:
 After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>,  <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were achieved using the <b><ins>LDA Multicore in gensim</ins></b>.  It is important to remember these results were achieved with a focus on interpretability not maximizing coherence scores.
 
  <br/>
