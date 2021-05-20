@@ -18,19 +18,21 @@ Grocery sales for plant-based meats are up 47% vs. year ago.  Research suggests 
 
 #### The Current Situation: 
 The CEO of Sunrise Health Foods is looking to enter the growing category with a new product.  However, given the high rate of failure for new product launches, coupled with the high costs for entry he/she is looking to create a product that is uniquely better than the industry leaders Impossible & Beyond.  To create a new and unique product, new and unique insights are needed.  The CEO has hired me to review the vast number of product reviews captured from various on-line retailers/ sources to mine for insights that could be used by the team to ensure a successful new product launch.  The findings will help the Marketing & R&D teams better understand the consumers needs, wants, and desires along with how current solutions are failing to deliver.
+  
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SunriseCEO.png" height="200"/>
+
 ### Business Questions Driving Model Development.
  The intended output of this theoretical business case is focused on the following:
 -   **1. Identify the key sentiments & topics mentioned from product reviews. **
 -   **2. Examples of good & bad product attributes associated with incumbents.  These will fuel product development efforts. **
 <br>
  
-## Data
+### Data
 The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3000 reviews.
   
 <br>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData.png" height="300"/>
-## Model Development Methods
+### Model Development Methods
 This project uses the Crisp DM methodology to generate and optimize used models.  Crisp DM requires the blending of business strategy, available data, and the use of the best modeling techniques dictated by business drivers.  Model development is and was very iterative.  I began by doing secondary research around the basic business drivers of the industry, and gaining a better understanding on the top selling products and brands of plant-based meats (thanks to my friends a IRI :) ).  Along with the project requirements noted above, the following additional factors were considered during the modeling process:
 -   **1. Data Imbalance** Early in the development process it was obvious that I would be dealing with an imbalanced set of data (more information/ rows of data on positive reviews vs. negative reviews).  To offset this problem, I split the data into two sets: positive and negative.  This step ensured the negative topics/ attributes would be surfaced without being clouded by the vast majority of positive reviews. 
 - **2. Selection of Unsupervised Topic Modeling Techniques** Initially I tried several different types of topic models, ranging from Mallets LDA, HDP, Multicore LDA, other.  Ultimately, I decided to use <b><ins>Genism’s Multicore LDA model</ins></b>, as this topic model continued to produce more coherent topics with higher coherence scores during my iterative approach to modeling.
