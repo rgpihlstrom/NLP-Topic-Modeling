@@ -3,22 +3,21 @@
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/Intro.png" height="300"/>
 
 ## Results 60% Coherence, 6 Topics!
-Project Summary: This project is my Capstone assignment for the Flatiron School.  The target audience is a fictional team of Marketers and Product Developers looking to ascertain the key product attributes consumer as saying are critical for a great analog plant-based meat product.  The findings of this project, outlined below, would then be used to formulate a positioning strategy and set of product formulas that would deliver against the positive attributes highlighted in the reviews along with addressing the negative and or missing attributes mentioned in the captured reviews.  
-<br/>
-
-Technical Summary: The project uses an LDA Topic Modeling algorithm to discover the latent topics within the set of approximately 3000 products reviews scraped from the sites of the most popular retailers along with twitter.  After scraping and cleaning the data I created two sets of data, one set contained positive reviews the other set contained negative reviews.  Finally, I created topics for each respective dataset: Positive topics and Negative Topics.  A summary of these topics is immediately below, and a more detailed outline is further below.  The algorithm used was able to achieve coherence scores of <b><ins>50%</ins></b> and <b><ins>60%</ins></b>, positive and negative, respectively.  Summary of Topics:
+Project Summary: This project is my Capstone assignment for the Flatiron School.  The target audience is a fictional team of Marketers and Product Developers looking to ascertain the key product attributes consumer as saying are critical for a great analog plant-based meat product.  The findings of this project, outlined below, would then be used to formulate a positioning strategy, and set of product formulas that would deliver against the positive attributes highlighted in the reviews along with addressing the negative and or missing attributes mentioned in the captured reviews.  
+Technical Summary: The project uses an LDA Topic Modeling algorithm to discover the latent topics within the set of approximately 3000 products reviews scraped from the sites of the most popular retailers along with twitter.  After scraping and cleaning the data I created two sets of data, one set contained positive reviews the other set contained negative reviews.  Finally, I created topics for each respective dataset: Positive topics and Negative Topics.  A summary of these topics is immediately below, and a more detailed outline is further below.  The algorithm used was able to achieve coherence scores of <b><ins>50%</ins></b> and <b><ins>60%</ins></b>, positive reviews and negative reviews, respectively.  Summary of Topics:
 <p>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SnapshotTopics2.png"  height="300"/>
 
  ## Business Problem
-Grocery sales for plant-based meats are up 47% vs. year ago.  Research suggests the acceptance of plant-based burgers by mainstream consumers.  A large portion of the growth in the plant-based category is coming from the sales of analog products (those that mimic real meat).  The two most dominate brands/products in the space are: Impossible and Beyond.
+Grocery store sales for plant-based meats are up 47% vs. year ago.  Research suggests a rise in acceptance of plant-based burgers by mainstream consumers.  A large portion of the growth in the plant-based category is coming from the sales of analog products (those that mimic real meat).  The two most dominate brands & products in the analog plant-based meat space are: Impossible and Beyond.
  <p>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/PlantBasedSales.png"  height="300"/>
 
  
 <br>
-
-  
+table, tr, td {
+    border: none;
+}  
 <table cellspacing="0" cellpadding="0">
   <tr>
    <td width="70%" border="0"> The CEO of Sunrise Health Foods is looking to enter the growing category with a new plant-based burger product.  However, given the high rate of failure for new product launches, coupled with the high costs for entry he/she is looking to create a product that is uniquely better than the industry leaders Impossible & Beyond.  To create a new and unique product, new and unique insights are needed.  The CEO has hired me to review the vast number of product reviews captured from various on-line retailers/ sources to mine for insights that could be used by the team to ensure a successful new product launch.  The findings will help the Marketing & R&D teams better understand the consumers needs, wants, and desires along with how current solutions are failing to deliver.</td>
