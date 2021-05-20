@@ -52,7 +52,7 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 
  <br/>
 
-##### From Positive Reviews
+##### Topics From Positive Reviews
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive.png" height="400" />
 
 ###### <ul><b>Explination</b></ul>
@@ -64,7 +64,7 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 
 <br/>
 
-##### From Negative Reviews
+##### Topics From Negative Reviews
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative.png" width="775" />
 
 ###### <ul><b>Explination</b></ul>
