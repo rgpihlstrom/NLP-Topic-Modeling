@@ -78,10 +78,11 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 ## Summary of Product Areas for Marketing & R&D Teams To Consider:
 Overall incumbents offerings are well received, meeting most of the needs around: 
 </br>
-- Positive Topics/ Attributes:<b><ins>  Taste, Texture, Convenience, Price, Eco</ins></b>
+ - Positive Topics/ Attributes:<b><ins>  Taste, Texture, Convenience, Price, Eco</ins></b>
 <br/>
 <br/>
-Opportunites for Innovation include:
+
+Opportunites for Innovation, while maintaining positive attributes notes above include:
 <br/>
 - Negative Topics/Attributes:<b><ins>  SMELL, APPEARANC, PRICING, INGREDIENTS </ins></b>
 <br/>
