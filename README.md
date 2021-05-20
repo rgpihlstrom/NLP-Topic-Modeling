@@ -29,7 +29,7 @@ Grocery sales for plant-based meats are up 47% vs. year ago.  Research suggests 
   
 
 
- #### Business Questions Driving Model Development.
+#### Business Questions Driving Model Development.
 1. Identify the key sentiments & topics mentioned from product reviews.
 2. Examples of good & bad product attributes associated with incumbents.  These will fuel product development efforts.
 <br>
@@ -46,15 +46,16 @@ This project uses the Crisp DM methodology to generate and optimize used models.
 - **2. Selection of Unsupervised Topic Modeling Techniques** Initially I tried several different types of topic models, ranging from Mallets LDA, HDP, Multicore LDA, other.  Ultimately, I decided to use <b><ins>Genism’s Multicore LDA model</ins></b>, as this topic model continued to produce more coherent topics with higher coherence scores during my iterative approach to modeling.
 - **3. Technical Challenges - LDA & Reviews with Few Words:**  Discovering the optimal number of topics, finding The "right" words for each Topic and finding topics that represented a portion of each doc/ review is/was a very iterative process.  LDA Topic modeling is a technique that is considered a "soft" classifier and interpreting results are part-art-part-science.  Experts suggest the higher the coherence score the better, but the max coherence score does not always translate to the most interpretable/ translatable topics.  Instead, when using topic modeling to find hidden topics the user is required to use a blend of domain knowledge, coherence score, coherence overlap, and topic interpretability to select the “right” number of topics with a corpus. During this project I achieved coherence scores that ranged from .2 - .72.  Ultimately, I chose hyper-parameters that created models that reached coherence scores greater than .45 and then selected the number of topics per dataset based on interpretability coupled with my domain knowledge on the subject, as I have over 15 years of experience in the food innovation space.  I also cross referenced my number of selected topics per dataset against a Kmeans elbow graph to ensure alignment.  Lastly, I used pyLDAvis.gensim to ensure separation of topics.  Below are the results from both the positive and negative datasets associated with each topic model.
 
-
 #### Model Results:
 
 After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>,  <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were achieved using the <b><ins>LDA Multicore in gensim</ins></b>.  It is important to remember these results were achieved with a focus on interpretability not maximizing coherence scores.
 
  <br/>
- ##### From Positive Reviews
+
+##### From Positive Reviews
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive.png" height="400" />
- ###### Explination
+
+###### Explination
 <h5>Topics Derived From Positivly Rated Reviews</h5>
 <strong> - Topic 0</strong> = <b><ins>NEW FAMILY FAVORITE</ins></b> Per the pyvis graph above this was by far the most dominate topic in the positive set of reviews.  In Studing the reveiws most associated with the topic and key words this topic can be called  as the reviews here were raving about the simliarity to real meat, great taste, great substiture for beef.
 <strong> - Topic 1</strong> = <b><ins>WORTH THE SACRIFICE</ins></b> as the reviews most associated with this topic and the dominate words correlated quality texttures, reception of price, filling, and being impressed, despite a few concerns on long/ odd ingredient lists aka (chemicals).<br/>
