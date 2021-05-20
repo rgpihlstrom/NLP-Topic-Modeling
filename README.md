@@ -3,16 +3,13 @@
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/Intro.png" height="300"/>
 
 ## Results 60% Coherence, 6 Topics!
-
-This project uses LDA Topic Modeling, an unsupervised algorithm, to discover the latent topics mentioned by consumers in approximately 3000 product reviews of the most popular ananalog plant-based meat products.  By scraping data from the most popular retail and social media sites I create two sets of topic models: 1 set of 4 topics for positively rated reviews and another set of 2 topics for negatively rated reviewes.  The algorithm was able to acheive coherence scores of <b><ins>50%</ins></b> and <b><ins>60%</ins></b> respectively.  The following were the most dominate topics for each segment of data:
+Business Summary: This project is intended to be used by a fiction marketing and product development team to ascertain the key product attributes associated with analog plant-based meat products.  The information outlined below would then be used to formulate a positioning strategy and set of product formulas that would meet the positive attributes highlighted in the reviews along with address the negative attributes mentioned in the reviews.  
+Technical Summary: The project uses an LDA Topic Modeling algorithm to discover the latent topics within the set of approximately 3000 products reviews scraped from the sites of the most popular retailers along with twitter.  After scraping and cleaning the data I created two sets of data, one set contained positive reviews the other set contained negative reviews.  Finally, I created topics for each respective dataset: Positive topics and Negative Topics.  A summary of these topics is immediately below, and a more detailed outline is further below.  The algorithm used was able to achieve coherence scores of <b><ins>50%</ins></b> and <b><ins>60%</ins></b>, positive and negative, respectively.  Summary of Topics:
 <p>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SnapshotTopics2.png"  height="300"/>
 
-Additionally, I experimented with using Naive Bayes, a supervised algorithm, to try attribute a numberical rating to reviews that otherwise did not have an accompaning numberical/ stars rating.  By leveraging and learning from past pre-rated, positivly (4-5 Stars) or negativly (1-3 stars) reviews, I attempted to classify twitter reviews, which are not rated, into a positve or negative category repectively.  Unfortunately, this experiment was not successful, having sever overfitting (Training/ validation <b><ins>93%</ins></b>, Testing <b><ins>76%</ins></b>)  See below for more details as there are areas for improvement.  
-
- 
  ## Business Problem
-Grocery sales for plant-based meats are up 47% vs. year ago, and research suggests the acceptance of plant-based burgers by mainstream consumer is starting to become reality. A large portion of this growth is coming from the two most dominate brands/products: Impossible and Beyond.
+Grocery sales for plant-based meats are up 47% vs. year ago.  Research suggests the acceptance of plant-based burgers by mainstream consumers.  A large portion of the growth in the plant-based category is coming from the sales of analog products (those that mimic real meat).  The two most dominate brands/products in the space are: Impossible and Beyond.
  <p>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/PlantBasedSales.png"  height="300"/>
 
@@ -20,44 +17,33 @@ Grocery sales for plant-based meats are up 47% vs. year ago, and research sugges
 <br>
 
 #### The Current Situation: 
-The CEO of Sunrise Health Foods is looking to enter the growing category with a new product.  However, given the high rate of failure for new product launches, coupled with the high costs for entry he/she is looking to create a product that is uniquely better than industry competitors.  In order to create a new and uniuque product, unique insights are needed.  He has hired me to review the vast number of product reviews captured for industry leaders from the most popular sites and formulate my findings into a set of product attributes that can then be leverage by the R&D team as it begins its product development efforts.
-  
+The CEO of Sunrise Health Foods is looking to enter the growing category with a new product.  However, given the high rate of failure for new product launches, coupled with the high costs for entry he/she is looking to create a product that is uniquely better than the industry leaders Impossible & Beyond.  To create a new and unique product, new and unique insights are needed.  The CEO has hired me to review the vast number of product reviews captured from various on-line retailers/ sources to mine for insights that could be used by the team to ensure a successful new product launch.  The findings will help the Marketing & R&D teams better understand the consumers needs, wants, and desires along with how current solutions are failing to deliver.
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SunriseCEO.png" height="200"/>
-
-
-  
-  
 ### Business Questions Driving Model Development.
  The intended output of this theoretical business case is focused on the following:
--   **1. Identify The Key Sentiments & Topics Menentioned From Product Review Sites.**
--   **2. Examples Good & Bad Product Attributes the R&D Team Should Consider During their Development Efforts.**
--   **3. Attempt to Project Ratings from Rated Reviews on to Unrated reviews.**
+-   **1. Identify the key sentiments & topics mentioned from product reviews. **
+-   **2. Examples of good & bad product attributes associated with incumbents.  These will fuel product development efforts. **
 <br>
  
 ## Data
-
-The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3k reviews and required the use of selenium and Scrapy to procure along with twint for the reviews obtained from twitter.
+The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3000 reviews.
   
 <br>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData.png" height="300"/>
-
 ## Model Development Methods
-This project uses the Crisp DM methodology to generate and optimize the models.  Crisp DM requires blending business strategy, availabled data, and modeling techniques best suited to the business drivers.  Model development is and was very iterative.  I began by doing secondary research around the basic business drivers of the industry, and gaining a better understanding on the top selling products and brands (thanks to my friends a IRI :) ).  Along with the project requirements noted above, the following additional factors were considered during the modeling process:
--   **1. Data Imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on positive reviews vs. negative reviews).  During topic modeling, to ensure optimum identification of topics and product attributes, I split the data into two sets: positive and negative.  Furthre more during the text classification portion of the project I needed to account for this imbalance.  I addresd this gap by using SMOTE(Synthetic Minority Oversampling Technique) during my Bayes classification portion.
-
-- **2. Selection of Unsupervised Topic Models**  Initially I tried several different types of topic models, ranging from Mallets LDA,  HDP, LSA, and Multicore LDA.  Ultimately, I decided to use <b><ins>Gensims Multicore LDA</ins></b> , as this topic model continued to produce more coherent topics with higher coherence scores during my iterative approach to modeling.  During the text classifiers portion of the project I choose Naive Bayes as it outperformed other ML classifiers.
-
-- **3. Techincal Challenges - LDA & Reviews with Few Words:**  Finding the number of topics, finding The "right" words for each Topic and finding topics that represented a portion of each doc/ review with a very iterative process.  LDA Topic modeling is a technique that is considered a "soft" classifier and interpeting its results are part-art-part-science.  Experts suggest the higher the coherence the better, but the max coherence score acheived does not alway acheive the most interpretable/ translatable topics.  Instead, when using topic modeling to find hidden topics the user is to use a blend of domain knowledge, coherenc score, and coherence overlap, and topic interpretability. During this project I acheive coherence scores that ranged from .2 - .72.  Ultimately I chose hyperameteres that created models that reached coeherence scores greater than .45 and then selected the number of topics per dataset based on iterpretabilty and my domain knowledge on the subject, as I have over 15 years of experience in the food innovation space.  I also cross referenced my number selected topics per dataset against a Kmeans elbow graph to ensure alignment.  Lastly, I used LDA vis to ensure separation of topics.  Below are the results from both the positive and negative datasets
+This project uses the Crisp DM methodology to generate and optimize used models.  Crisp DM requires the blending of business strategy, available data, and the use of the best modeling techniques dictated by business drivers.  Model development is and was very iterative.  I began by doing secondary research around the basic business drivers of the industry, and gaining a better understanding on the top selling products and brands of plant-based meats (thanks to my friends a IRI :) ).  Along with the project requirements noted above, the following additional factors were considered during the modeling process:
+-   **1. Data Imbalance** Early in the development process it was obvious that I would be dealing with an imbalanced set of data (more information/ rows of data on positive reviews vs. negative reviews).  To offset this problem, I split the data into two sets: positive and negative.  This step ensured the negative topics/ attributes would be surfaced without being clouded by the vast majority of positive reviews. 
+- **2. Selection of Unsupervised Topic Modeling Techniques** Initially I tried several different types of topic models, ranging from Mallets LDA, HDP, Multicore LDA, other.  Ultimately, I decided to use <b><ins>Genism’s Multicore LDA model</ins></b>, as this topic model continued to produce more coherent topics with higher coherence scores during my iterative approach to modeling.
+- **3. Technical Challenges - LDA & Reviews with Few Words:**  Discovering the optimal number of topics, finding The "right" words for each Topic and finding topics that represented a portion of each doc/ review is/was a very iterative process.  LDA Topic modeling is a technique that is considered a "soft" classifier and interpreting results are part-art-part-science.  Experts suggest the higher the coherence score the better, but the max coherence score does not always translate to the most interpretable/ translatable topics.  Instead, when using topic modeling to find hidden topics the user is required to use a blend of domain knowledge, coherence score, coherence overlap, and topic interpretability to select the “right” number of topics with a corpus. During this project I achieved coherence scores that ranged from .2 - .72.  Ultimately, I chose hyper-parameters that created models that reached coherence scores greater than .45 and then selected the number of topics per dataset based on interpretability coupled with my domain knowledge on the subject, as I have over 15 years of experience in the food innovation space.  I also cross referenced my number of selected topics per dataset against a Kmeans elbow graph to ensure alignment.  Lastly, I used pyLDAvis.gensim to ensure separation of topics.  Below are the results from both the positive and negative datasets associated with each topic model.
 
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/EvaluatingTopicModels.png" height="300" />
-
-
 ## Model Results - Topic Modeling
-After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>, accuracy <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were acheived using the <b><ins>LDA Multicore in Gensim</ins></b>.  It's important to remember these results were acheived with a focus on interpretability.
+After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>,  <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were achieved using the <b><ins>LDA Multicore in gensim</ins></b>.  It is important to remember these results were achieved with a focus on interpretability not maximizing coherence scores.
 
  <br/>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive.png" height="400" />
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative.png" width="775" />
+
 
 
 <h4>Topic Model Results Explained:</h4>
