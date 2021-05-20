@@ -22,8 +22,8 @@ The CEO of Sunrise Health Foods is looking to enter the growing category with a 
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SunriseCEO.png" height="200"/>
 
  #### Business Questions Driving Model Development.
-- 1. Identify the key sentiments & topics mentioned from product reviews. **
-- 2. Examples of good & bad product attributes associated with incumbents.  These will fuel product development efforts. **
+1. Identify the key sentiments & topics mentioned from product reviews.
+2. Examples of good & bad product attributes associated with incumbents.  These will fuel product development efforts.
 <br>
  
 #### The  Data
