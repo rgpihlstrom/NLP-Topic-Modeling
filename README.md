@@ -79,14 +79,15 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 Overall incumbents offerings are well received, meeting most of the needs around: 
 </br>
 - Positive Topics/ Attributes: <b><ins>Taste, Texture, Convenience, Price, Eco</ins></b>
-
+<br/>
+<br/>
 Opportunites for Innovation include:
+<br/>
 - Negative Topics/Attributes:<b><ins>SMELL, APPEARANC, PRICING, INGREDIENTS </ins></b>
-
 <br/>
 <br/>
 
-#### Next Steps - MORE DATA More Data & More Data
+## Next Steps - MORE DATA More Data & More Data
 
 - **MORE DATA - Retailers Should Motivate More On-line Consumer Reviews** - Quantity & Diverity of Thought:  One of the challenges of this project was amassing enough data to obtain the quantity of data required to create robust models.  In order to encourge this type of analysis in the future and accross several categories more reivews would be helpful, also pushing consumer to generate organic thoughts for targeted product attributes, dislikes, etc.
 
