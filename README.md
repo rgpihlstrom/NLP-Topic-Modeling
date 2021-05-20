@@ -21,8 +21,6 @@ The CEO of Sunrise Health Foods is looking to enter the growing category with a 
   
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SunriseCEO.png" height="200"/>
 
-
-  
   
 ### Business Questions Driving Model Development.
  The intended output of this theoretical business case is focused on the following:
@@ -31,14 +29,14 @@ The CEO of Sunrise Health Foods is looking to enter the growing category with a 
 -   **3. Attempt to Project Ratings from Rated Reviews on to Unrated reviews.**
 <br>
  
-## Data
+### The Data
 
 The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3k reviews and required the use of selenium and Scrapy to procure along with twint for the reviews obtained from twitter.
   
 <br>
-<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData.png" height="300"/>
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData1.png" height="300"/>
 
-## Model Development Methods
+### Model Development Methods
 This project uses the Crisp DM methodology to generate and optimize the models.  Crisp DM requires blending business strategy, availabled data, and modeling techniques best suited to the business drivers.  Model development is and was very iterative.  I began by doing secondary research around the basic business drivers of the industry, and gaining a better understanding on the top selling products and brands (thanks to my friends a IRI :) ).  Along with the project requirements noted above, the following additional factors were considered during the modeling process:
 -   **1. Data Imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on positive reviews vs. negative reviews).  During topic modeling, to ensure optimum identification of topics and product attributes, I split the data into two sets: positive and negative.  Furthre more during the text classification portion of the project I needed to account for this imbalance.  I addresd this gap by using SMOTE(Synthetic Minority Oversampling Technique) during my Bayes classification portion.
 
