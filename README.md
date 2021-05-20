@@ -43,7 +43,7 @@ The below topics were an output of this intertive process – part-art-part-stat
 <br/>
 <strong> - Topic 0</strong> = <b><ins>NEW FAMILY FAVORITE</ins></b> Per the pyLDAvis graph above, topic 0 (as labeled initially by the algorithm) was by far the most dominate topic in all the data.  Keywords included: real meat, great taste, great substitute for beef, most epitomizing reviews showed raving amazement for the similarity to beef and acceptance by the family.<br/>
 <strong> - Topic 1</strong> = <b><ins>WORTH THE SACRIFICE</ins></b> Keywords included: textures, reception of price, filling, and being impressed.  Also shown are concerns on long/ odd ingredient lists aka (chemicals).  However, given this set of topics is only drawn from positive reviews, and upon reviewing reviews associated with this topic,  consumers believe the benefits outweigh these concerns<br/>
-<strong> - Topic 2</strong> = <b><ins>RIGHT PROPOSITION</ins></b> Keywords and associated reviews included: size of the product and number of items contained in the package along with all the benefits associated with being animal and ecofriendly. <br/>
+<strong> - Topic 2</strong> = <b><ins>WORRY FREE - Win Win Win</ins></b> Keywords and associated reviews included: size of the product and number of items contained in the package along with all the benefits associated with being animal and ecofriendly. <br/>
 <strong> - Topic 3</strong> = <b><ins>GUILT FREE CONVENIENCE </ins></b> Keywords and associated reviews included: ease of use, recipe versatility and the health benefits associated with avoiding the hormones associated with non-organic beef.
 
 
