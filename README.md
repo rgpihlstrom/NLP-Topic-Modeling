@@ -26,6 +26,7 @@ This project uses the Crisp DM methodology to generate and optimize used models.
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/EvaluatingTopicModels.png"/>
 <br/>
 <br/>
+
 #### Model Results:
 
 After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>,  <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were achieved using the <b><ins>LDA Multicore in gensim</ins></b>.  It is important to remember these results were achieved with a focus on interpretability not maximizing coherence scores.
