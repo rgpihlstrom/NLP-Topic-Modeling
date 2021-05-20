@@ -45,7 +45,9 @@ This project uses the Crisp DM methodology to generate and optimize used models.
 
 After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>,  <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were achieved using the <b><ins>LDA Multicore in gensim</ins></b>.  It is important to remember these results were achieved with a focus on interpretability not maximizing coherence scores.
  <br/>
- <h5><b>Topics From Positive Reviews</b>/h5>
+ 
+ <h5><b>Topics Generated From Positive Reviews</b></h5>
+ 
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive.png" height="400" />
 
  <h5><b>Explination</b></h5>
@@ -57,12 +59,14 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 
 <br/>
 
-##### Topics From Negative Reviews
+<h3>Topics Derived From Negatively Rated Reviews</h3>
+<h5><b>Topics Generated From Negative Reviews</b></h5>
+ 
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative.png" width="775" />
 
-###### <ul><b>Explination</b></ul>
+ <h5><b>Explination</b></h5>
 
-<h3>Topics Derived From Negatively Rated Reviews</h3>
+
 <strong> - Topic 0</strong> = <b><ins>BUYER BEWARE</ins></b> Per the pyvis graph above this was by far the most dominate topic in the negetive set of reviews.  The reviews here were blasting the horrible smells, resembalance to wet petfood and its very large gap between the textures offered vs. real beef.
 <br/>
 <strong> - Topic 1</strong> = <b><ins>NOT WORTH THE SACRIFICE</ins></b> as the reviews most associated with this topic and the dominate words correlated with long list of ingredients, ingredients that cannot be pronounced (aka chemicals) and the high cost relative to beef.
