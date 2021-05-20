@@ -31,6 +31,7 @@ The data used for this project was scraped from the below sites in the listed qu
   
 <br>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData1.png" height="300"/>
+
 #### Model Development Methods:
 This project uses the Crisp DM methodology to generate and optimize used models.  Crisp DM requires the blending of business strategy, available data, and the use of the best modeling techniques dictated by business drivers.  Model development is and was very iterative.  I began by doing secondary research around the basic business drivers of the industry, and gaining a better understanding on the top selling products and brands of plant-based meats (thanks to my friends a IRI :) ).  Along with the project requirements noted above, the following additional factors were considered during the modeling process:
 -   **1. Data Imbalance** Early in the development process it was obvious that I would be dealing with an imbalanced set of data (more information/ rows of data on positive reviews vs. negative reviews).  To offset this problem, I split the data into two sets: positive and negative.  This step ensured the negative topics/ attributes would be surfaced without being clouded by the vast majority of positive reviews. 
