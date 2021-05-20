@@ -70,17 +70,21 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 <br/>
 <strong> - Topic 1</strong> = <b><ins>NOT WORTH THE SACRIFICE</ins></b> as the reviews most associated with this topic and the dominate words correlated with long list of ingredients, ingredients that cannot be pronounced (aka chemicals) and the high cost relative to beef.
 <br/>
-<br>
+<br/>
 
 #### Example Reviews From Scrapped Sources Associated with Key words:
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/ExampleReviews.png" />
 
-### Summary of Product Areas for Marketing & R&D Teams To Consider:
-- Positive Topics/ Attributes: 
-- Negative Topics/Attributes: 
-<br/><br/>
-<strong>***Key Take Away/ Product Attributes to Target</strong> = Well received all around, meeting many needs for consumers desire for: <b><ins>Taste, Texture, Convenience, Price, Eco</ins></b>… willing to “put up” with <b><ins>Smell and Ingredient list</ins></b>… at least for now... however as a R&D staff they should target:  <b><ins>SMELL, APPEARANC, PRICING, INGREDIENTS </ins></b> as opportunities to offer something new and unique to the market.
+## Summary of Product Areas for Marketing & R&D Teams To Consider:
+Overall incumbents offerings are well received, meeting most of the needs around: 
+</br>
+- Positive Topics/ Attributes: <b><ins>Taste, Texture, Convenience, Price, Eco</ins></b>
 
+Opportunites for Innovation include:
+- Negative Topics/Attributes:<b><ins>SMELL, APPEARANC, PRICING, INGREDIENTS </ins></b>
+
+<br/>
+<br/>
 
 #### Next Steps - MORE DATA More Data & More Data
 
