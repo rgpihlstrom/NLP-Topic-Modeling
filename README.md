@@ -70,7 +70,7 @@ Overall incumbents offerings are well received, meeting most of the needs around
 <br/>
 <br/>
 
-Opportunites for Innovation, while maintaining positive attributes notes above include:
+Opportunites for Innovation, while maintaining positive attributes noted above include:
 <br/>
 - Negative Topics/Attributes:<b><ins>  SMELL, APPEARANC, PRICING, INGREDIENTS </ins></b>
 <br/>
