@@ -24,11 +24,6 @@ Grocery sales for plant-based meats are up 47% vs. year ago.  Research suggests 
   </tr>
 </table>
 
-
-
-  
-
-
 #### Business Questions Driving Model Development.
 1. Identify the key sentiments & topics mentioned from product reviews.
 2. Examples of good & bad product attributes associated with incumbents.  These will fuel product development efforts.
@@ -49,14 +44,14 @@ This project uses the Crisp DM methodology to generate and optimize used models.
 #### Model Results:
 
 After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>,  <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were achieved using the <b><ins>LDA Multicore in gensim</ins></b>.  It is important to remember these results were achieved with a focus on interpretability not maximizing coherence scores.
-
  <br/>
-
+ <h5>Topics From Positive Reviews</h5>
 ##### Topics From Positive Reviews
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive.png" height="400" />
 
+ <h5>Explination</h5>
 ###### <ul><b>Explination</b></ul>
-<h5>Topics Derived From Positivly Rated Reviews</h5>
+
 <strong> - Topic 0</strong> = <b><ins>NEW FAMILY FAVORITE</ins></b> Per the pyvis graph above this was by far the most dominate topic in the positive set of reviews.  In Studing the reveiws most associated with the topic and key words this topic can be called  as the reviews here were raving about the simliarity to real meat, great taste, great substiture for beef. <br/>
 <strong> - Topic 1</strong> = <b><ins>WORTH THE SACRIFICE</ins></b> as the reviews most associated with this topic and the dominate words correlated quality texttures, reception of price, filling, and being impressed, despite a few concerns on long/ odd ingredient lists aka (chemicals).<br/>
 <strong> - Topic 2</strong> = <b><ins>RIGHT PROPOSITION</ins></b> as the reviews most associated with this topic and the dominate words correlated with size of the product and number of items contained in the package along with all the benefits associated with animal and eco friendly. <br/>
