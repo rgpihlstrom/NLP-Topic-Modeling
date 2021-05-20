@@ -48,7 +48,7 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
  
  <h5><b><u>Topics Generated From Positive Reviews</u></b></h5>
  
-<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive.png" height="400" />
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive1.png" height="400" />
 
  <h5><b><u>Explination</u></b></h5>
 
@@ -61,7 +61,7 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 
  <h5><b><u>Topics Generated From Negative Reviews</u></b></h5>
  
-<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative.png" width="775" />
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative1.png" width="775" />
 
  <h5><b><u>Explination</u></b></h5>
 
