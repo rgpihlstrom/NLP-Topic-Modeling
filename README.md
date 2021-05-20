@@ -56,7 +56,7 @@ The below topics were an output of this intertive process – part-art-part-stat
 
 <strong> - Topic 0</strong> = <b><ins>BUYER BEWARE</ins></b> Per the pyvis graph above this was by far the most dominate topic in the negetive set of reviews.  The reviews here were blasting the horrible smells, resembalance to wet petfood and its very large gap between the textures offered vs. real beef.
 <br/>
-<strong> - Topic 1</strong> = <b><ins>NOT WORTH THE SACRIFICE</ins></b>Keywords/ themes included:  long list of ingredients, ingredients that cannot be pronounced (aka chemicals) and the high cost relative to beef.
+<strong> - Topic 1</strong> = <b><ins>NOT WORTH THE SACRIFICE</ins></b> Keywords/ themes included:  long list of ingredients, ingredients that cannot be pronounced (aka chemicals) and the high cost relative to beef.
 <br/>
 <br/>
 
