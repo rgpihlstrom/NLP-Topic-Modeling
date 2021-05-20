@@ -1,9 +1,11 @@
 **Author**:[Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
-## Using Product Reviews & Topic Modeling To Drive Innovation!
+## Using Product Reviews & Topic Modeling to Drive Innovation!
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/Intro.png" height="300"/>
 
 ## Results 60% Coherence, 6 Topics!
-Business Summary: This project is intended to be used by a fiction marketing and product development team to ascertain the key product attributes associated with analog plant-based meat products.  The information outlined below would then be used to formulate a positioning strategy and set of product formulas that would meet the positive attributes highlighted in the reviews along with address the negative attributes mentioned in the reviews.  
+Project Summary: This project is my Capstone assignment for the Flatiron School.  The target audience is a fictional team of Marketers and Product Developers looking to ascertain the key product attributes consumer as saying are critical for a great analog plant-based meat product.  The findings of this project, outlined below, would then be used to formulate a positioning strategy and set of product formulas that would deliver against the positive attributes highlighted in the reviews along with addressing the negative and or missing attributes mentioned in the captured reviews.  
+<br/>
+
 Technical Summary: The project uses an LDA Topic Modeling algorithm to discover the latent topics within the set of approximately 3000 products reviews scraped from the sites of the most popular retailers along with twitter.  After scraping and cleaning the data I created two sets of data, one set contained positive reviews the other set contained negative reviews.  Finally, I created topics for each respective dataset: Positive topics and Negative Topics.  A summary of these topics is immediately below, and a more detailed outline is further below.  The algorithm used was able to achieve coherence scores of <b><ins>50%</ins></b> and <b><ins>60%</ins></b>, positive and negative, respectively.  Summary of Topics:
 <p>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SnapshotTopics2.png"  height="300"/>
