@@ -20,7 +20,7 @@ Grocery sales for plant-based meats are up 47% vs. year ago.  Research suggests 
   
 <table style="width:100%">
   <tr>
-    <td style="text-align:left" style="width:30%"><img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SunriseCEO.png" height="300"/></td>
+    <td style="width:30%"><img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SunriseCEO.png" height="300"/></td>
     <td>The CEO of Sunrise Health Foods is looking to enter the growing category with a new product.  However, given the high rate of failure for new product launches, coupled with the high costs for entry he/she is looking to create a product that is uniquely better than the industry leaders Impossible & Beyond.  To create a new and unique product, new and unique insights are needed.  The CEO has hired me to review the vast number of product reviews captured from various on-line retailers/ sources to mine for insights that could be used by the team to ensure a successful new product launch.  The findings will help the Marketing & R&D teams better understand the consumers needs, wants, and desires along with how current solutions are failing to deliver.</td>
   </tr>
 </table>
