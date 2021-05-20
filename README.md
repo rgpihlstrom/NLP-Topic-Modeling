@@ -45,12 +45,10 @@ This project uses the Crisp DM methodology to generate and optimize used models.
 
 After several iterations, the below topic models were created <b><ins>50% Coherence - Positive Reviews</ins></b>,  <b><ins>60% Coherence - Negative Reviews</ins></b>, These results were achieved using the <b><ins>LDA Multicore in gensim</ins></b>.  It is important to remember these results were achieved with a focus on interpretability not maximizing coherence scores.
  <br/>
- <h5>Topics From Positive Reviews</h5>
-##### Topics From Positive Reviews
+ <h5><b>Topics From Positive Reviews</b>/h5>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive.png" height="400" />
 
- <h5>Explination</h5>
-###### <ul><b>Explination</b></ul>
+ <h5><b>Explination</b></h5>
 
 <strong> - Topic 0</strong> = <b><ins>NEW FAMILY FAVORITE</ins></b> Per the pyvis graph above this was by far the most dominate topic in the positive set of reviews.  In Studing the reveiws most associated with the topic and key words this topic can be called  as the reviews here were raving about the simliarity to real meat, great taste, great substiture for beef. <br/>
 <strong> - Topic 1</strong> = <b><ins>WORTH THE SACRIFICE</ins></b> as the reviews most associated with this topic and the dominate words correlated quality texttures, reception of price, filling, and being impressed, despite a few concerns on long/ odd ingredient lists aka (chemicals).<br/>
