@@ -51,12 +51,12 @@ The below topics were an output of this intertive process – part-art-part-stat
  
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingNegative1.png" width="775" />
 
- <h5><b><u>Explination</u></b></h5>
+ <h5><b><u>Explanation</u></b></h5>
 
 
-<strong> - Topic 0</strong> = <b><ins>BUYER BEWARE</ins></b> Per the pyvis graph above this was by far the most dominate topic in the negetive set of reviews.  The reviews here were blasting the horrible smells, resembalance to wet petfood and its very large gap between the textures offered vs. real beef.
+<strong> - Topic 0</strong> = <b><ins>BUYER BEWARE</ins></b> Per the pyvis graph above this was by far the most dominate topic in the negative set of reviews.  The reviews here were blasting the horrible smells, resemblance to wet petfood and its very large gap between the textures offered vs. real beef.
 <br/>
-<strong> - Topic 1</strong> = <b><ins>NOT WORTH THE SACRIFICE</ins></b> Keywords/ themes included:  long list of ingredients (kill you), ingredients that cannot be pronounced (aka chemicals) and the high cost relative to beef, unhealthy.
+<strong> - Topic 1</strong> = <b><ins>NOT WORTH THE SACRIFICE</ins></b> Keywords/ themes included:  long list of ingredients (kill you), ingredients that cannot be pronounced (aka chemicals) and the high-cost relative to beef, unhealthy.
 <br/>
 <br/>
 
@@ -64,13 +64,13 @@ The below topics were an output of this intertive process – part-art-part-stat
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/ExampleReviews.png" />
 
 ## Summary of Product Areas for Marketing & R&D Teams To Consider:
-Overall incumbents offerings are well received, meeting most of the needs around: 
+Overall incumbents offerings are well received, meeting most of the needs. 
 </br>
  - Positive Topics/ Attributes:<b><ins>  Taste, Texture, Convenience, Price, Eco</ins></b>
 <br/>
 <br/>
 
-Opportunites for Innovation, while maintaining positive attributes noted above include:
+Opportunities for Innovation, while maintaining positive attributes noted above include:
 <br/>
 - Negative Topics/Attributes:<b><ins>  SMELL, APPEARANC, PRICING, INGREDIENTS </ins></b>
 <br/>
@@ -78,12 +78,12 @@ Opportunites for Innovation, while maintaining positive attributes noted above i
 
 ## Next Steps - MORE DATA More Data & More Data
 
-- **MORE DATA - Retailers Should Motivate More On-line Consumer Reviews** - Quantity & Diverity of Thought:  One of the challenges of this project was amassing enough data to obtain the quantity of data required to create robust models.  In order to encourge this type of analysis in the future and accross several categories more reivews would be helpful, also pushing consumer to generate organic thoughts for targeted product attributes, dislikes, etc.
+- **MORE DATA - Retailers Should Motivate More On-line Consumer Reviews** - Quantity & Diversity of Thought:  One of the challenges of this project was amassing enough data to obtain the quantity of data required to create robust models.  In order to encourage this type of analysis in the future and across several categories more reviews would be helpful, also pushing consumer to generate organic thoughts for targeted product attributes, dislikes, etc.
 
-- **MORE DATA - Developing More Extendables Models** - More Sources of Data:  Per the above obtaining data is a challenge.  Additionally, obtaining data that is also rated is even more of a challenge.  In order to combat this problem I could develop an algorithm that would take the ratings from reviews that allow the user to enter a ratings (amazon) and using that data to project a rating on to reviews that do not allow the user to enter a rating (twitter,tic-tok, FB).  By creating a more extendable more will allow for the use of more sources of data, and ultimately increases the quantity. 
+- **MORE DATA - Developing More Expendables Models** - More Sources of Data:  Per the above obtaining data is a challenge.  Additionally, obtaining data that is also rated is even more of a challenge.  In order to combat this problem I could develop an algorithm that would take the ratings from reviews that allow the user to enter a ratings (amazon) and using that data to project a rating on to reviews from social media sites that do not allow the user to enter a rating (Twitter,TikTok, FB).  By creating a more extendable model will allow for the use of more sources of data, and ultimately increases the quantity.   This is especially true for procuring negative slanted comments, this was particularly evident in this project.
 
-- **MORE DATA - Leveraging Video Content To Create Reviews** - While scraping sites for this project, such as twitter, I encountered several tweets that contained the words "Beyond Burger Review" or "Impossible Burger Review" that were not really reveiws but instead were really just links to youtube/ other videos.  If there was a technolgogy to summarize videos down to a review would be invaluable.
+- **MORE DATA - Leveraging Video Content to Create Reviews** - While scraping data for this project, sites such as twitter, resulted in leaving many great reviews out of the analysis.  I encountered several tweets that contained the words "Beyond Burger Review" or "Impossible Burger Review" that were not really usable reviews but instead were really just links to youtube/ other videos containing the actual reviews.  If there was a technology to summarize videos down to a review would be invaluable.
 
 See the full analysis in the [Jupyter Notebooks](folder) or review our <a href="https://github.com/rgpihlstrom/Project5/blob/main/Presentation.pdf">Presentation</a>.
 
-For additional info, contact me here: [ Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
+For additional info, contact me here: [ Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com) 
