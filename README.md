@@ -6,7 +6,7 @@
 
 This project uses LDA Topic Modeling, an unsupervised algorithm, to discover the latent topics mentioned by consumers in approximately 3000 product reviews of the most popular ananalog plant-based meat products.  By scraping data from the most popular retail and social media sites I create two sets of topic models: 1 set of 4 topics for positively rated reviews and another set of 2 topics for negatively rated reviewes.  The algorithm was able to acheive coherence scores of <b><ins>50%</ins></b> and <b><ins>60%</ins></b> respectively.  The following were the most dominate topics for each segment of data:
 <p>
-<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SnapshotTopics1.png"  height="300"/>
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/SnapshotTopics2.png"  height="300"/>
 
 Additionally, I experimented with using Naive Bayes, a supervised algorithm, to try attribute a numberical rating to reviews that otherwise did not have an accompaning numberical/ stars rating.  By leveraging and learning from past pre-rated, positivly (4-5 Stars) or negativly (1-3 stars) reviews, I attempted to classify twitter reviews, which are not rated, into a positve or negative category repectively.  Unfortunately, this experiment was not successful, having sever overfitting (Training/ validation <b><ins>93%</ins></b>, Testing <b><ins>76%</ins></b>)  See below for more details as there are areas for improvement.  
 
