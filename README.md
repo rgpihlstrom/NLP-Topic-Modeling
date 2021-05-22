@@ -23,7 +23,7 @@ The CEO of Sunrise Health Foods is looking to enter the growing category with a 
 <br>
  
 #### The  Data:
-The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3000 reviews.  Code for scaping can be found in <i>"images/Selenium - KrogerWalmartOther.ipynb"</i>
+The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3000 reviews.  Code for scaping can be found in: <i>"images/Selenium - KrogerWalmartOther.ipynb"</i>
   
 <br>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData1.png" height="300"/>
@@ -78,6 +78,10 @@ The below topics were an output of this intertive process – part-art-part-stat
 
 #### Example Reviews From Scrapped Sources Associated with Key words:
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/ExampleReviews.png" />
+
+Code for model developement can be found in: <i>TopicModeling.ipynb</i>
+Code for visual development can be found in: <i>TopicModeling.ipynb</i?
+
 
 ## Summary of Product Areas for Marketing & R&D Teams To Consider:
 Overall incumbents offerings are well received, meeting most of the needs. 
