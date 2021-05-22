@@ -54,12 +54,12 @@ After several iterations, the below topic models were created <b><ins>50% Cohere
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/TopicModelingPositive1.png" height="400" />
 
  <h5><b><u>Explanation</u></b></h5>
-As stated above, Topic Modeling is part-art-part-science.  Using topic models requires the user to augment the output from the algorithm to ensure usability.  The algorithm produces clusters equal to K - the topic number specified when running.  The output is a numerically labeled (0-K) set of clusters, along with the words that have the highest probability to be generated from each cluster.  It is up to the user to name/ summarize each cluster into topics by reviewing the key words, along with the reviews that most epitomize each cluster.  By studying the keywords and reviewing the reviews most associated with each cluster the user “transforms” each numbered cluster by naming/ summarerizing the key themes/ topics contained in each cluster.  
+As stated above, Topic Modeling is part-art-part-science.  Using topic models requires the user to augment the output from the algorithm to ensure usability.  The algorithm produces clusters equal to K - the topic number specified when running.  The output is a numerically labeled (0-K) set of clusters, along with the words that have the highest probability to be generated from each cluster.  It is up to the user to name/ summarize each cluster into topics by reviewing the key words, along with the reviews that most epitomize each cluster.  By studying the keywords and reviewing the reviews most associated with each cluster the user “transforms” each numbered cluster by naming/ summarizing the key themes/ topics contained in each cluster.  
 
-The below topics were an output of this intertive process – part-art-part-statistics 😊 .  
+The below topics were an output of this interactive process – part-art-part-statistics 😊 .  
 <br/>
 <strong> - Topic 0</strong> = <b><ins>NEW FAMILY FAVORITE</ins></b> Per the pyLDAvis graph above, topic 0 (as labeled initially by the algorithm) was by far the most dominate topic in all the data.  Keywords included: real meat, great taste, great substitute for beef, most epitomizing reviews showed raving amazement for the similarity to beef and acceptance by the family.<br/>
-<strong> - Topic 1</strong> = <b><ins>WORTH THE SACRIFICE</ins></b> Keywords included: textures, reception of price, filling, and being impressed.  Also shown are concerns on long/ odd ingredient lists aka (chemicals).  However, given this set of topics is only drawn from positive reviews, and upon reviewing reviews associated with this topic,  consumers believe the benefits outweigh these concerns<br/>
+<strong> - Topic 1</strong> = <b><ins>WORTH THE SACRIFICE</ins></b> Keywords included: textures, reception of price, filling, and being impressed.  Also shown are concerns on long/ odd ingredient lists aka (chemicals).  However, given this set of topics is only drawn from positive reviews, and upon reviewing reviews associated with this topic, consumers believe the benefits outweigh these concerns<br/>
 <strong> - Topic 2</strong> = <b><ins>WORRY FREE - Win Win Win</ins></b> Keywords and associated reviews included: size of the product and number of items contained in the package along with all the benefits associated with being animal and ecofriendly. <br/>
 <strong> - Topic 3</strong> = <b><ins>GUILT FREE CONVENIENCE </ins></b> Keywords and associated reviews included: ease of use, recipe versatility and the health benefits associated with avoiding the hormones associated with non-organic beef.  Also shown to a lesser extent are some concerns with smell.
 
@@ -80,7 +80,7 @@ The below topics were an output of this intertive process – part-art-part-stat
 #### Example Reviews From Scrapped Sources Associated with Key words:
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/ExampleReviews.png" />
 
-*** Code for model developement can be found in: <i>TopicModeling.ipynb</i>
+*** Code for model development can be found in: <i>TopicModeling.ipynb</i>
 <br/>
 *** Code for visual development can be found in: <i>TopicVisuals.ipynb</i>
 
@@ -94,7 +94,7 @@ Overall incumbents offerings are well received, meeting most of the needs.
 
 Opportunities for Innovation, while maintaining positive attributes noted above include:
 <br/>
-- Negative Topics/Attributes:<b><ins>  SMELL, APPEARANC, PRICING, INGREDIENTS </ins></b>
+- Negative Topics/Attributes:<b><ins>  Smell, Appearance, Pricing, Ingredients </ins></b>
 <br/>
 <br/>
 
@@ -109,4 +109,4 @@ Opportunities for Innovation, while maintaining positive attributes noted above 
 
 See the full analysis in the [Jupyter Notebooks](folder) or review our <a href="https://github.com/rgpihlstrom/Project5/blob/main/Presentation.pdf">Presentation</a>.
 
-For additional info, contact me here: [ Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com) 
+For additional info, contact me here: [ Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
