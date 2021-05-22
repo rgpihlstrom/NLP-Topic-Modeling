@@ -23,7 +23,7 @@ The CEO of Sunrise Health Foods is looking to enter the growing category with a 
 <br>
  
 #### The  Data:
-The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3000 reviews.
+The data used for this project was scraped from the below sites in the listed quantities:  The dataset contains approximately 3000 reviews.  Code for scaping can be found in images/Selenium - KrogerWalmartOther.ipynb
   
 <br>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData1.png" height="300"/>
