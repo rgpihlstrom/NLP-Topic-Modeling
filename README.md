@@ -82,7 +82,7 @@ The below topics were an output of this intertive process – part-art-part-stat
 
 *** Code for model developement can be found in: <i>TopicModeling.ipynb</i>
 <br/>
-*** Code for visual development can be found in: <i>TopicModeling.ipynb</i>
+*** Code for visual development can be found in: <i>TopicVisuals.ipynb</i>
 
 
 ## Summary of Product Areas for Marketing & R&D Teams To Consider:
