@@ -98,11 +98,14 @@ Opportunities for Innovation, while maintaining positive attributes noted above 
 <br/>
 <br/>
 
-## Next Steps - MORE DATA More Data & More Data
+## Next Steps - MORE DATA
 
 - **MORE DATA - Retailers Should Motivate More On-line Consumer Reviews** - Quantity & Diversity of Thought:  One of the challenges of this project was amassing enough data to obtain the quantity of data required to create robust models.  In order to encourage this type of analysis in the future and across several categories more reviews would be helpful, also pushing consumer to generate organic thoughts for targeted product attributes, dislikes, etc.
 
-- **MORE DATA - Developing More Expendables Models** - More Sources of Data:  Per the above obtaining data is a challenge.  Additionally, obtaining data that is also rated is even more of a challenge.  In order to combat this problem I could develop an algorithm that would take the ratings from reviews that allow the user to enter a ratings (amazon) and using that data to project a rating on to reviews from social media sites that do not allow the user to enter a rating (Twitter,TikTok, FB).  By creating a more extendable model will allow for the use of more sources of data, and ultimately increases the quantity.   This is especially true for procuring negative slanted comments, this was particularly evident in this project.
+- **MORE DATA - Developing Classification Models** - More Sources of Data:  Per the above, obtaining data was a challenge.  Additionally, obtaining data that was also rated was even more of a challenge, but required.  In order to combat this problem, I developed a classifier, using Random Forest, which uses ratings from reviews entered by the reviewer from one site to classify non-rated reviews from another site into one of two categories: positive or negative.  More specifically, I used the positive and negative ratings from sites that allow the users to enter a review along with enter a rating (amazon, Target, Walmart, Kroger) to classify twitter reviews into a positive or negative class.  As most of you know twitter does not allow users to make comments and enter a rating to accompany their comment.  The creation of this classifier allowed me the ability to then sort all the data into two segments, positive and negative, regardless of source.  Without this algorithm I would have had to either manually code or drop the reviews obtained through twitter as sorting the reviews into positive and negative was critical to finding both positive and negative topics.  In the future this ability will open access to additional social media sites while maintaining the ability to create the segments required for effective insight discovery through topic modeling.  
+
+*** Code for this algorithm can be found in: <i> TextClassificationProductReviews.ipynb</i>
+
 
 - **MORE DATA - Leveraging Video Content to Create Reviews** - While scraping data for this project, sites such as twitter, resulted in leaving many great reviews out of the analysis.  I encountered several tweets that contained the words "Beyond Burger Review" or "Impossible Burger Review" that were not really usable reviews but instead were really just links to youtube/ other videos containing the actual reviews.  If there was a technology to summarize videos down to a review would be invaluable.
 
