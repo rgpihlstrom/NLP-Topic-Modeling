@@ -27,7 +27,7 @@ The data used for this project was scraped from the below sites in the listed qu
  *** Code for scaping can be found in: <i>"images/Selenium - KrogerWalmartOther.ipynb"</i>
   
 <br>
-<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData1.png" height="300"/>
+<img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheData2.png" height="300"/>
 
 <br>
 <img src="https://github.com/rgpihlstrom/Project5/blob/main/images/OverviewOfTheDataByBrand.png" height="300"/>
